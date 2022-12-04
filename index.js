@@ -12,3 +12,6 @@ function secondtestFunction() {
   el.style.fontSize = (fontSize - 1) + 'px';
   document.getElementById("demo").innerHTML = fontSize;
 }
+function colorChanger() {
+  document.getElementById("colored").style.color = "green";
+}
